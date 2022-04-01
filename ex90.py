@@ -21,7 +21,7 @@ while True:
                 if p == lista[0]:
                     print(f"{c} = {v}")
     if opt == 2:
-        print("Nome        Média")
+        print("Nome              Média")
         for p in lista:
             for c, v in p.items():
                 if c == 'nome':
